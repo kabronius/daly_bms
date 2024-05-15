@@ -2,12 +2,14 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>daly_bms</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>
     Daly BMS ROS driver.
   </description>
 
   <maintainer email="aarnal@robotnik.es">Alex Arnal</maintainer>
+  <maintainer email="rmartin@robotnik.es">Rafael Martin</maintainer>
+  <maintainer email="ggari@robotnik.es">Guillem Gari</maintainer>
   <license>MIT</license>
   <author email="aarnal@robotnik.es">Alex Arnal</author>
 
@@ -15,6 +17,8 @@
   <buildtool_depend>ament_cmake_python</buildtool_depend>
 
   <depend>rclpy</depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>robotnik_msgs</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

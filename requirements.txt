@@ -1,2 +1,2 @@
 pyserial
-dalybms==0.3
+dalybms==0.5
